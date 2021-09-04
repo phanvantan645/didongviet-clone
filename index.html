@@ -1,0 +1,3037 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Di Động Việt - Clone</title>
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="https://didongviet.vn/pub/media/favicon/stores/1/ddv-favicon-2019.jpg"
+        />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="https://didongviet.vn/pub/media/favicon/stores/1/ddv-favicon-2019.jpg"
+        />
+        <!-- <link
+            rel="stylesheet"
+            href="./assets/lib/bootstrap-4.5.3-dist/css/bootstrap.min.css"
+        /> -->
+        <link
+            rel="stylesheet"
+            href="./assets/lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="./assets/lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+        />
+        <!-- <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        /> -->
+
+        <!-- <link
+						rel="stylesheet"
+						href="https://cdn.jsdelivr.net/gh/lucaburgio/iconoir@master/css/iconoir.css"
+				/> -->
+
+        <link rel="stylesheet" href="./assets/style/app.css" />
+        <link
+            rel="stylesheet"
+            href="./assets/style/fontawesome-free-5.15.4-web/css/all.css"
+        />
+    </head>
+
+    <body>
+        <div class="app">
+            <header class="main-header-wrapper">
+                <!-- <a href="#" class="header-banner">
+                    <img
+                        src="./assets/images/dien-thoai-chinh-hang-hd.png"
+                        alt=""
+                    />
+                </a> -->
+                <div class="panel">
+                    <p>Hơn 300 Người nổi tiếng đồng hành cùng Di Động Việt</p>
+                </div>
+                <div class="main-header-content container">
+                    <div class="main-top-header">
+                        <div class="top-header-content">
+                            <i class="fas fa-bars mobile-menu"></i>
+
+                            <a href="/" class="main-logo">
+                                <img
+                                    src="./assets/images/logo-ddv.png"
+                                    alt="Trang chủ"
+                                />
+                            </a>
+                            <div class="logo-sis">
+                                <a title="Mobifone - Di Động Việt"></a>
+                            </div>
+                        </div>
+                        <div class="top-header-content">
+                            <div class="main-info-item info-hotline">
+                                <span class="img">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+                                        />
+                                    </svg>
+                                </span>
+                                <div class="info">
+                                    <a href="tel:18006018">
+                                        <p class="sub">Hotline hỗ trợ</p>
+                                        <p class="title">1800 6018</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="main-info-item info-login">
+                                <span class="img">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-6 w-6"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                        />
+                                    </svg>
+                                </span>
+                                <div class="info">
+                                    <div>
+                                        <p class="sub">
+                                            <a href="#">Đăng nhập</a>
+                                            /
+                                            <a href="#">Đăng ký</a>
+                                        </p>
+                                        <a href="#" class="title">Thành viên</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="mini-cart">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="main-bottom-header">
+                        <div class="search-header">
+                            <input
+                                type="text"
+                                class="search-header-input"
+                                placeholder="Bạn muốn tìm gì..."
+                            />
+                            <div class="icons">
+                                <svg
+                                    class="search-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="{2}"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                                    />
+                                </svg>
+                                <svg
+                                    class="close-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="{2}"
+                                        d="M6 18L18 6M6 6l12 12"
+                                    />
+                                </svg>
+                            </div>
+                            <ul class="bottom-header-list">
+                                <li class="bottom-header-item">
+                                    <a href="#">iPhone 12</a>
+                                </li>
+                                <li class="bottom-header-item">
+                                    <a href="#">Galaxy S21 Ultra</a>
+                                </li>
+                                <li class="bottom-header-item">
+                                    <a href="#">Apple Watch 6</a>
+                                </li>
+                                <li class="bottom-header-item">
+                                    <a href="#">Macbook M1</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="sub-menu-wrapper">
+                <div class="sub-menu-content container">
+                    <ul class="widget-ui">
+                        <li class="level0 dropdown-menu-category">
+                            <span class="img">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                                    />
+                                </svg>
+                            </span>
+                            <a href="#"> Điện Thoại </a>
+                            <ul class="dropdown-sub-menu">
+                                <li class="sub-menu-item">
+                                    <ol>
+                                        <li>
+                                            <a href="#">Samsung</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Vivo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Vsmart</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Xiaomi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Realme</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Nokia</a>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="level0 dropdown-menu-category">
+                            <span class="img">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                                    />
+                                </svg>
+                            </span>
+                            <a href="#"> Apple Iphone </a>
+                            <ul class="dropdown-sub-menu">
+                                <li class="sub-menu-item">
+                                    <ol>
+                                        <li>
+                                            <a href="#">iPhone 13</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">iPhone 12</a>
+                                            | <a href="#">iPhone 12 Mini</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">iPhone 12 Pro</a>
+                                            | <a href="#">iPhone 12 Pro Max</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">iPhone 11</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">iPhone 11 Pro</a>
+                                            | <a href="#">iPhone 11 Pro Max</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">iPhone SE 2020</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">iPhone X</a>
+                                            | <a href="#">iPhone Xr</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">iPhone 8</a>
+                                            | <a href="#">iPhone 8 Plus</a>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="level0 dropdown-menu-category">
+                            <span class="img">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                    />
+                                </svg>
+                            </span>
+                            <a href="#"> Laptop & Tablet </a>
+                            <ul class="dropdown-sub-menu">
+                                <li class="sub-menu-item">
+                                    <ol>
+                                        <li>
+                                            <a href="#">Apple MacBook & iMac</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Apple iPad</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tablet</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Laptop chính hãng</a>
+                                        </li>
+                                        <li></li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="level0 dropdown-menu-category">
+                            <span class="img">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                                    />
+                                </svg>
+                            </span>
+                            <a href="#"> Thiết bị y tế </a>
+                            <ul class="dropdown-sub-menu">
+                                <li class="sub-menu-item">
+                                    <ol>
+                                        <li>
+                                            <a href="#">Máy tạo Oxy - Oxygen</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                >Máy đo nồng độ Oxy trong máu -
+                                                Máy SPO2</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                >Dụng cụ test nhanh Covid-19
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Combo mùa Covid</a>
+                                        </li>
+                                        <li></li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="level0 dropdown-menu-category">
+                            <span class="img">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13"
+                                    />
+                                </svg>
+                            </span>
+                            <a href="#"> Phụ kiện </a>
+                            <ul class="dropdown-sub-menu">
+                                <li class="sub-menu-item">
+                                    <ol>
+                                        <li>
+                                            <a href="#">Đồng hồ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Phụ kiện MacBook</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Phụ kiện Apple</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Phụ kiện Samsung</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Apple AirTag</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tai nghe AirPods</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tai nghe</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Loa nghe nhạc</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Pin sạc dự phòng</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cáp sạc</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Adapter - Củ sạc</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Ốp lưng, bao da</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Túi chống sốc, Balo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                >Robot hút bụi lau nhà</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#">Máy lọc không khí</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cân điện tử</a>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="menu-funtions-wrapper">
+                        <a href="#" class="menu-funtion small">
+                            <span class="img">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="{2}"
+                                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                                    />
+                                </svg>
+                            </span>
+                            <p class="title">Trả góp</p>
+                        </a>
+                        <a href="#" class="menu-funtion small">
+                            <span class="img">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"
+                                    />
+                                </svg>
+                            </span>
+                            <div class="title">
+                                <p>Thu cũ</p>
+                                <p>đổi mới</p>
+                            </div>
+                        </a>
+                        <a href="#" class="menu-funtion large">
+                            <span class="img">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+                                    />
+                                </svg>
+                            </span>
+                            <div class="title">
+                                <p>Tin tức</p>
+                                <p>công nghệ</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="home-top-promotion container">
+                    <div class="homepage-trend">
+                        <div class="trend-title">
+                            <span class="img">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                                    />
+                                </svg>
+                            </span>
+                            <p class="title">Xu hướng mua sắm</p>
+                        </div>
+                        <div class="trend-list">
+                            <div class="trend-item">
+                                <a href="#" class="trend-link">
+                                    <div class="trend-top">
+                                        <span class="rank">#1</span>
+                                        <h3>iPhone 12 Pro Max</h3>
+                                    </div>
+                                    <p>Thiết kế sang, giá tốt</p>
+                                </a>
+                            </div>
+                            <div class="trend-item">
+                                <a href="#" class="trend-link">
+                                    <div class="trend-top">
+                                        <span class="rank">#2</span>
+                                        <h3>iPhone 12 Pro Max</h3>
+                                    </div>
+                                    <p>Thiết kế sang, giá tốt</p>
+                                </a>
+                            </div>
+                            <div class="trend-item">
+                                <a href="#" class="trend-link">
+                                    <div class="trend-top">
+                                        <span class="rank">#3</span>
+                                        <h3>iPhone 12 Pro Max</h3>
+                                    </div>
+                                    <p>Thiết kế sang, giá tốt</p>
+                                </a>
+                            </div>
+                            <div class="trend-item">
+                                <a href="#" class="trend-link">
+                                    <div class="trend-top">
+                                        <span class="rank">#4</span>
+                                        <h3>iPhone 12 Pro Max</h3>
+                                    </div>
+                                    <p>Thiết kế sang, giá tốt</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promotion-slider">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/chuong-trinh-thiet-bi-y-te-banner-1-didongvite.jpg"
+                                        alt=""
+                                    />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/chuong-trinh-dat-truoc-samsung-banner-1-didongviet.jpg"
+                                        alt=""
+                                    />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/chuong-trinh-thuoc-0d-didongviet-768x371.jpg"
+                                        alt=""
+                                    />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/768x371_4.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promotion-banner">
+                        <div class="item hot-deal-accessories">
+                            <a href="#">Khuyến mãi phụ kiện hot</a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="./assets/images/480x248.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/480x248-airpod.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-cat-wrapper">
+                    <div class="home-cat-menu container">
+                        <div>
+                            <a href="#" class="cat-thietbi-yte">
+                                <img
+                                    src="./assets/images/icon-tbyt.png"
+                                    class="img"
+                                />
+                                <p class="title">
+                                    Thiết bị <br />
+                                    y tế
+                                </p>
+                            </a>
+                            <a href="" class="cat-apple">
+                                <img
+                                    src="./assets/images/aar-didongviet_1.png"
+                                    class="img"
+                                />
+                                <p class="title">
+                                    Apple<br />Authorised Reseller
+                                </p>
+                            </a>
+                            <a href="" class="cat-samsung">
+                                <img
+                                    src="./assets/images/samsung.png"
+                                    class="img"
+                                />
+                                <p class="title">Samsung<br />giảm đến 11tr</p>
+                            </a>
+                            <a href="" class="cat-xiaomi">
+                                <img
+                                    src="./assets/images/xiaomi.png"
+                                    class="img"
+                                />
+                                <p class="title">Xiaomi<br />giảm đến 5,7tr</p>
+                            </a>
+                            <a href="" class="cat-oppo">
+                                <img
+                                    src="./assets/images/oppo.png"
+                                    class="img"
+                                />
+                                <p class="title">OPPO<br />giảm đến 1,1tr</p>
+                            </a>
+                            <a href="" class="cat-jbl">
+                                <img
+                                    src="./assets/images/bluetooth-speaker.png"
+                                    class="img"
+                                />
+                                <p class="title">
+                                    Phụ kiện JBL<br />giảm đến 58%
+                                </p>
+                            </a>
+                            <a href="" class="cat-enginer">
+                                <img
+                                    src="./assets/images/enginer.png"
+                                    class="img"
+                                />
+                                <p class="title">Energizer<br />giảm đên 50%</p>
+                            </a>
+                            <a href="" class="cat-anker">
+                                <img
+                                    src="./assets/images/anker.png"
+                                    class="img"
+                                />
+                                <p class="title">Anker<br />chỉ từ 190k</p>
+                            </a>
+                            <a href="" class="cat-case">
+                                <img
+                                    src="./assets/images/case.png"
+                                    class="img"
+                                />
+                                <p class="title">
+                                    Ốp lưng UAG<br />giảm đến 30%
+                                </p>
+                            </a>
+                            <a href="" class="cat-sony">
+                                <img
+                                    src="./assets/images/sony.png"
+                                    class="img"
+                                />
+                                <p class="title">
+                                    Phụ kiện Sony<br />giảm đến 30%
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="influence-slider-wrapper">
+                    <div class="influence-slider-content container">
+                        <div class="influencer-background"></div>
+                        <div class="influencer-slider-container owl-carousel">
+                            <div class="item influencer-slider">
+                                <img
+                                    src="./assets/images/hoaminzy_1.jpg"
+                                    alt="Cs Hoa Minzy"
+                                />
+                                <p class="influencer-slider-name">
+                                    Ca sĩ Hòa Minzy
+                                </p>
+                                <div class="star-hover"></div>
+                            </div>
+                            <div class="item influencer-slider">
+                                <img src="./assets/images/12.jpg" alt="" />
+                                <p class="influencer-slider-name">
+                                    Ca sĩ Đan Trường
+                                </p>
+                                <div class="star-hover"></div>
+                            </div>
+                            <div class="item influencer-slider">
+                                <img src="./assets/images/14.jpg" alt="" />
+                                <p class="influencer-slider-name">
+                                    Ca sĩ Lệ Quyên
+                                </p>
+                                <div class="star-hover"></div>
+                            </div>
+                            <div class="item influencer-slider">
+                                <img src="./assets/images/2.jpg" alt="" />
+                                <p class="influencer-slider-name">
+                                    Hoa Hậu Tiểu Vi
+                                </p>
+                                <div class="star-hover"></div>
+                            </div>
+                            <div class="item influencer-slider">
+                                <img src="./assets/images/3.jpg" />
+                                <p class="influencer-slider-name">
+                                    Nhạc sĩ Huy Tuấn
+                                </p>
+                                <div class="star-hover"></div>
+                            </div>
+                            <div class="item influencer-slider">
+                                <img src="./assets/images/4.jpg" alt="" />
+                                <p class="influencer-slider-name">
+                                    Ca sĩ Đàm Vĩnh Hưng
+                                </p>
+                                <div class="star-hover"></div>
+                            </div>
+                            <div class="item influencer-slider">
+                                <img src="./assets/images/6.jpg" alt="" />
+                                <p class="influencer-slider-name">Shark Hưng</p>
+                                <div class="star-hover"></div>
+                            </div>
+                            <div class="item influencer-slider">
+                                <img
+                                    src="./assets/images/sharkdung_1.jpg"
+                                    alt=""
+                                />
+                                <p class="influencer-slider-name">
+                                    Shark Nguyễn Mạnh Dũng
+                                </p>
+                                <div class="star-hover"></div>
+                            </div>
+                            <div class="item influencer-slider">
+                                <img
+                                    src="./assets/images/thanhdraw_1.jpg"
+                                    alt=""
+                                />
+                                <p class="influencer-slider-name">
+                                    Rapper Thành Draw
+                                </p>
+                                <div class="star-hover"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-flash-sale-wrapper">
+                    <div class="slider-flash-sale-content container">
+                        <div class="slider-flash-sale-header">
+                            <a href="#">Thiết bị y tế: Cần có cho mỗi nhà</a>
+                        </div>
+                        <div class="slider-flash-sale owl-carousel">
+                            <div class="item box-product">
+                                <div class="product-lable"></div>
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/images/may-tao-oxy-didongviet.jpg"
+                                            alt=""
+                                            class="product-img"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="#" class="product-name">
+                                        Máy tạo Oxy 10 lít Owgels OZ-5-01NW0
+                                        (OZ-5-01GWO)
+                                    </a>
+                                    <div class="box-product-price">
+                                        <div class="product-price">
+                                            <p class="current-price">
+                                                31.000.000 <u>đ</u>
+                                            </p>
+                                            <p class="old-price">
+                                                32.000.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                        <div class="col-installment">
+                                            <p class="price-lable">
+                                                Hoặc trả trước
+                                            </p>
+                                            <p class="price">
+                                                9.570.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item box-product">
+                                <div class="product-lable"></div>
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/images/may-tao-oxy-didongviet.jpg"
+                                            alt=""
+                                            class="product-img"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="#" class="product-name">
+                                        Máy tạo Oxy 10 lít Owgels OZ-5-01NW0
+                                        (OZ-5-01GWO)
+                                    </a>
+                                    <div class="box-product-price">
+                                        <div class="product-price">
+                                            <p class="current-price">
+                                                31.000.000 <u>đ</u>
+                                            </p>
+                                            <p class="old-price">
+                                                32.000.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                        <div class="col-installment">
+                                            <p class="price-lable">
+                                                Hoặc trả trước
+                                            </p>
+                                            <p class="price">
+                                                9.570.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item box-product">
+                                <div class="product-lable"></div>
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/images/may-tao-oxy-didongviet.jpg"
+                                            alt=""
+                                            class="product-img"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="#" class="product-name">
+                                        Máy tạo Oxy 10 lít Owgels OZ-5-01NW0
+                                        (OZ-5-01GWO)
+                                    </a>
+                                    <div class="box-product-price">
+                                        <div class="product-price">
+                                            <p class="current-price">
+                                                31.000.000 <u>đ</u>
+                                            </p>
+                                            <p class="old-price">
+                                                32.000.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                        <div class="col-installment">
+                                            <p class="price-lable">
+                                                Hoặc trả trước
+                                            </p>
+                                            <p class="price">
+                                                9.570.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item box-product">
+                                <div class="product-lable"></div>
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/images/may-tao-oxy-didongviet.jpg"
+                                            alt=""
+                                            class="product-img"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="#" class="product-name">
+                                        Máy tạo Oxy 10 lít Owgels OZ-5-01NW0
+                                        (OZ-5-01GWO)
+                                    </a>
+                                    <div class="box-product-price">
+                                        <div class="product-price">
+                                            <p class="current-price">
+                                                31.000.000 <u>đ</u>
+                                            </p>
+                                            <p class="old-price">
+                                                32.000.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                        <div class="col-installment">
+                                            <p class="price-lable">
+                                                Hoặc trả trước
+                                            </p>
+                                            <p class="price">
+                                                9.570.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item box-product">
+                                <div class="product-lable"></div>
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/images/may-tao-oxy-didongviet.jpg"
+                                            alt=""
+                                            class="product-img"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="#" class="product-name">
+                                        Máy tạo Oxy 10 lít Owgels OZ-5-01NW0
+                                        (OZ-5-01GWO)
+                                    </a>
+                                    <div class="box-product-price">
+                                        <div class="product-price">
+                                            <p class="current-price">
+                                                31.000.000 <u>đ</u>
+                                            </p>
+                                            <p class="old-price">
+                                                32.000.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                        <div class="col-installment">
+                                            <p class="price-lable">
+                                                Hoặc trả trước
+                                            </p>
+                                            <p class="price">
+                                                9.570.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item box-product">
+                                <div class="product-lable"></div>
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/images/may-tao-oxy-didongviet.jpg"
+                                            alt=""
+                                            class="product-img"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="#" class="product-name">
+                                        Máy tạo Oxy 10 lít Owgels OZ-5-01NW0
+                                        (OZ-5-01GWO)
+                                    </a>
+                                    <div class="box-product-price">
+                                        <div class="product-price">
+                                            <p class="current-price">
+                                                31.000.000 <u>đ</u>
+                                            </p>
+                                            <p class="old-price">
+                                                32.000.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                        <div class="col-installment">
+                                            <p class="price-lable">
+                                                Hoặc trả trước
+                                            </p>
+                                            <p class="price">
+                                                9.570.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item box-product">
+                                <div class="product-lable"></div>
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/images/may-tao-oxy-didongviet.jpg"
+                                            alt=""
+                                            class="product-img"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="#" class="product-name">
+                                        Máy tạo Oxy 10 lít Owgels OZ-5-01NW0
+                                        (OZ-5-01GWO)
+                                    </a>
+                                    <div class="box-product-price">
+                                        <div class="product-price">
+                                            <p class="current-price">
+                                                31.000.000 <u>đ</u>
+                                            </p>
+                                            <p class="old-price">
+                                                32.000.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                        <div class="col-installment">
+                                            <p class="price-lable">
+                                                Hoặc trả trước
+                                            </p>
+                                            <p class="price">
+                                                9.570.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item box-product">
+                                <div class="product-lable"></div>
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/images/may-tao-oxy-didongviet.jpg"
+                                            alt=""
+                                            class="product-img"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="#" class="product-name">
+                                        Máy tạo Oxy 10 lít Owgels OZ-5-01NW0
+                                        (OZ-5-01GWO)
+                                    </a>
+                                    <div class="box-product-price">
+                                        <div class="product-price">
+                                            <p class="current-price">
+                                                31.000.000 <u>đ</u>
+                                            </p>
+                                            <p class="old-price">
+                                                32.000.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                        <div class="col-installment">
+                                            <p class="price-lable">
+                                                Hoặc trả trước
+                                            </p>
+                                            <p class="price">
+                                                9.570.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item box-product">
+                                <div class="product-lable"></div>
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/images/may-tao-oxy-didongviet.jpg"
+                                            alt=""
+                                            class="product-img"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="#" class="product-name">
+                                        Máy tạo Oxy 10 lít Owgels OZ-5-01NW0
+                                        (OZ-5-01GWO)
+                                    </a>
+                                    <div class="box-product-price">
+                                        <div class="product-price">
+                                            <p class="current-price">
+                                                31.000.000 <u>đ</u>
+                                            </p>
+                                            <p class="old-price">
+                                                32.000.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                        <div class="col-installment">
+                                            <p class="price-lable">
+                                                Hoặc trả trước
+                                            </p>
+                                            <p class="price">
+                                                9.570.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item box-product">
+                                <div class="product-lable"></div>
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/images/may-tao-oxy-didongviet.jpg"
+                                            alt=""
+                                            class="product-img"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <a href="#" class="product-name">
+                                        Máy tạo Oxy 10 lít Owgels OZ-5-01NW0
+                                        (OZ-5-01GWO)
+                                    </a>
+                                    <div class="box-product-price">
+                                        <div class="product-price">
+                                            <p class="current-price">
+                                                31.000.000 <u>đ</u>
+                                            </p>
+                                            <p class="old-price">
+                                                32.000.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                        <div class="col-installment">
+                                            <p class="price-lable">
+                                                Hoặc trả trước
+                                            </p>
+                                            <p class="price">
+                                                9.570.000 <u>đ</u>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-bottom-banner container">
+                    <div class="group-slider owl-carousel">
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/chuong-trinh-xiaomi-didongviet-1.jpg"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150_1_.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150_2.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150_3.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150-garmin.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150-macbook.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150-macbook.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150_1_.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-custom block-slider-1 container">
+                    <div class="slider-custom-header">
+                        <h3 class="slider-custom-title">Sản phẩm nổi bật</h3>
+                        <div class="slider-custom-cat">
+                            <a href="#" class="slider-custom-cate-item"
+                                >Galaxy S21 Ultra</a
+                            >
+                            <a href="#" class="slider-custom-cate-item"
+                                >galaxy Note 20</a
+                            >
+                            <a href="#" class="slider-custom-cate-item">
+                                Galaxy A series
+                            </a>
+                            <a href="#" class="slider-custom-cate-item">Oppo</a>
+                            <a href="#" class="slider-custom-cate-item"
+                                >Xiaomi</a
+                            >
+                        </div>
+                    </div>
+                    <div class="slider-custom-content">
+                        <div class="box-product">
+                            <div class="product-lable"></div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/samsung-galaxy-z-flip-3-green-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    Samsung Galaxy Z Flip3 5G (8GB|128GB)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            24.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">7.497.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="box-product-bottom">
+                                    <span class="label-special-gift">
+                                        Từ 19.8 - 16.9: Đặt hàng trước nhận quà
+                                        khủng đến
+                                        <strong>2.500.000đ</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable"></div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/samsung-galaxy-z-flip-3-cream-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    Samsung Galaxy Z Flip3 5G (8GB|256GB)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            26.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">8.097.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="box-product-bottom">
+                                    <span class="label-special-gift">
+                                        Từ 19.8 - 16.9: Đặt hàng trước nhận quà
+                                        khủng đến
+                                        <strong>2.500.000đ</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable"></div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/samsung-galaxy-z-fold3-5g-256gb-didongviet_1.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    Samsung Galaxy Z Fold3 5G (12GB|256GB)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            41.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">12.597.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="box-product-bottom">
+                                    <span class="label-special-gift">
+                                        Từ 19.8 - 16.9: Đặt hàng trước nhận quà
+                                        khủng đến
+                                        <strong>6.000.000đ</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable"></div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/samsung-galaxy-z-fold-3-phantom-green-didongviet_1_2.jpeg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    Samsung Galaxy Z Fold3 5G (12GB|512GB)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            44.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">13.497.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="box-product-bottom">
+                                    <span class="label-special-gift">
+                                        Từ 19.8 - 16.9: Đặt hàng trước nhận quà
+                                        khủng đến
+                                        <strong>2.500.000đ</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable"></div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/xiaomi-redmi-note-10-5g-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    Redmi Note 10 5G (4GB|128GB)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            4.690.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            5.290.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">1.407.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                                <!-- <div class="box-product-bottom">
+                                    <span class="label-special-gift">
+                                        Từ 19.8 - 16.9: Đặt hàng trước nhận quà
+                                        khủng đến
+                                        <strong>2.500.000đ</strong>
+                                    </span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-custom block-slider-2 container">
+                    <div class="slider-custom-header">
+                        <h3 class="slider-custom-title">iPhone chính hãng</h3>
+                        <div class="slider-custom-cat">
+                            <a href="#" class="slider-custom-cate-item"
+                                >iPhone 12</a
+                            >
+                            <a href="#" class="slider-custom-cate-item"
+                                >iPhone 11</a
+                            >
+                            <a href="#" class="slider-custom-cate-item">
+                                iPhone Xs/Xs Max
+                            </a>
+                            <a href="#" class="slider-custom-cate-item"
+                                >iPhone Xr</a
+                            >
+                        </div>
+                    </div>
+                    <div class="slider-custom-content">
+                        <div class="box-product">
+                            <div class="product-lable">
+                                <span class="flag flag-installment">
+                                    Trả góp <font>0%</font>
+                                </span>
+                                <span class="percent-deal"
+                                    >Giảm 6,500,000đ</span
+                                >
+                            </div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/iphone-12-128gb-vna-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    iPhone 12 128GB Chính hãng (VN/A)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            20.490.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            26.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">6.147.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable">
+                                <span class="flag flag-installment">
+                                    Trả góp <font>0%</font>
+                                </span>
+                                <span class="percent-deal"
+                                    >Giảm 6,500,000đ</span
+                                >
+                            </div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/iphone-12-pro-xam-aar-didongviet_5.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    iPhone 12 256GB Chính hãng (VN/A)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            28.390.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            34.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">8.517.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable">
+                                <span class="flag flag-installment">
+                                    Trả góp <font>0%</font>
+                                </span>
+                                <span class="percent-deal"
+                                    >Giảm 6,500,000đ</span
+                                >
+                            </div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/iphone-12-tim-aar-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    iPhone 12 64GB màu tím (Purple) Chính hãng
+                                    (VN/A)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            19.590.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            22.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">5.877.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable">
+                                <span class="flag flag-installment">
+                                    Trả góp <font>0%</font>
+                                </span>
+                                <span class="percent-deal"
+                                    >Giảm 6,500,000đ</span
+                                >
+                            </div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/iphone-12-pro-max-blue-aar-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    iPhone 12 Pro Max 128GB Chính hãng (VN/A)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            28.590.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            33.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">8.577.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable">
+                                <span class="flag flag-installment">
+                                    Trả góp <font>0%</font>
+                                </span>
+                                <span class="percent-deal"
+                                    >Giảm 6,500,000đ</span
+                                >
+                            </div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/iphone-12-pro-max-blue-aar-didongviet_2.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    iPhone 12 256GB Pro Max Chính hãng (VN/A)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            31.390.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            37.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">9.417.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-bottom-banner container">
+                    <div class="group-slider owl-carousel">
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/chuong-trinh-xiaomi-didongviet-1.jpg"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150_1_.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150_2.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150_3.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150-garmin.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150-macbook.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150-macbook.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/768x150_1_.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-custom block-slider-3 container">
+                    <div class="slider-custom-header">
+                        <h3 class="slider-custom-title">Macbook & iPad</h3>
+                        <div class="slider-custom-cat">
+                            <a href="#" class="slider-custom-cate-item"
+                                >Macbook Pro M1</a
+                            >
+                            <a href="#" class="slider-custom-cate-item"
+                                >Macbook Air M1</a
+                            >
+                            <a href="#" class="slider-custom-cate-item">
+                                iPad Pro 2020
+                            </a>
+                            <a href="#" class="slider-custom-cate-item"
+                                >iPad Pro 2020</a
+                            >
+                        </div>
+                    </div>
+                    <div class="slider-custom-content">
+                        <div class="box-product">
+                            <div class="product-lable">
+                                <span class="percent-deal"
+                                    >Giảm 3,600,000đ</span
+                                >
+                            </div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/macbook-air-13-256gb-2020-chip-arm-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    MacBook Air 13 M1 8GB/256GB (2020) (Chip
+                                    ARM) Chính hãng (Full VAT)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            25.390.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            28.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">7.617.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable">
+                                <span class="percent-deal"
+                                    >Giảm 5,600,000đ</span
+                                >
+                            </div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/macbook-pro-13-256gb-2020-chip-arm-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    MacBook Pro 13 M1 8GB/256GB (2020) (Chip
+                                    ARM) Chính hãng (Full VAT)
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            31.390.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            36.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">9.417.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable">
+                                <span class="percent-deal"
+                                    >Giảm 2,000,000đ</span
+                                >
+                            </div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/ipad-10-2inch-2020-aar-didongviet_1_1.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    iPad Gen 8 32GB Wifi Chính hãng
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            8.790.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            10.790.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">2.637.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable">
+                                <span class="percent-deal"
+                                    >Giảm 2,500,000đ</span
+                                >
+                            </div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/ipad-air-4-aar-xam-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    iPad Air 4 (2020) 64GB Wifi Chính hãng
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            14.590.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            17.090.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">4.377.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable">
+                                <span class="percent-deal"
+                                    >Giảm 1,700,000đ</span
+                                >
+                            </div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/ipad-pro-2020-bac-aar-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    iPad Pro 2020 11inch 128GB Wi-Fi Chính hãng
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            19.390.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            21.090.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">5.817.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-custom block-slider-4 container">
+                    <div class="slider-custom-header">
+                        <h3 class="slider-custom-title">Đồng hồ thông minh</h3>
+                        <div class="slider-custom-cat">
+                            <a href="#" class="slider-custom-cate-item"
+                                >Apple watch Series 6</a
+                            >
+                            <a href="#" class="slider-custom-cate-item"
+                                >Apple watch SE</a
+                            >
+                            <a href="#" class="slider-custom-cate-item">
+                                Galaxy A series 5
+                            </a>
+                            <a href="#" class="slider-custom-cate-item"
+                                >Galaxy Watch Active</a
+                            >
+                        </div>
+                    </div>
+                    <div class="slider-custom-content">
+                        <div class="box-product">
+                            <div class="product-lable"></div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/galaxy-watch-4-40mm-didongviet-hong-12.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    Samsung Galaxy Watch4 40mm
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            6.490.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">1.947.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="box-product-bottom">
+                                    <span class="label-special-gift">
+                                        Từ 19.8 - 16.9: Đặt hàng trước nhận quà
+                                        khủng đến
+                                        <strong>3.000.000đ</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable"></div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/galaxy-watch-4-40mm-lte-didongviet.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    Samsung Galaxy Watch4 40mm LTE
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            7.490.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">2.247.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="box-product-bottom">
+                                    <span class="label-special-gift">
+                                        Từ 31.08 - 16.9: Đặt hàng trước nhận quà
+                                        khủng đến
+                                        <strong>3.000.000đ</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable"></div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/galaxy-watch4-44mm-didongviet_1.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    Samsung Galaxy Watch4 44mm
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            6.990.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">2.097.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="box-product-bottom">
+                                    <span class="label-special-gift">
+                                        Từ 31.08 - 16.9: Đặt hàng trước nhận quà
+                                        khủng đến
+                                        <strong>3.000.000đ</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable"></div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/galaxy-watch-4-classic-42mm-lte-didongviet-den-min.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    Samsung Galaxy Watch 4 Classic 42mm LTE
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            9.490.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">2.847.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="box-product-bottom">
+                                    <span class="label-special-gift">
+                                        Từ 31.08 - 16.9: Đặt hàng trước nhận quà
+                                        khủng đến
+                                        <strong>3.000.000đ</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-lable"></div>
+                            <div class="product-image">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/galaxy-watch-4-42mm-mau-bac-didongviet-12.jpg"
+                                        alt=""
+                                        class="product-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="product-name">
+                                    Samsung Galaxy Watch 4 Classic 42mm
+                                </a>
+                                <div class="box-product-price">
+                                    <div class="product-price">
+                                        <p class="current-price">
+                                            8.490.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                    <div class="col-installment">
+                                        <p class="price-lable">
+                                            Hoặc trả trước
+                                        </p>
+                                        <p class="price">2.547.000 <u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="box-product-bottom">
+                                    <span class="label-special-gift">
+                                        Từ 19.8 - 16.9: Đặt hàng trước nhận quà
+                                        khủng đến
+                                        <strong>3.000.000đ</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-featured container">
+                    <div class="box-group-featured">
+                        <div class="group-left">
+                            <img src="./assets/images/244x524.png" alt="" />
+                        </div>
+                        <div class="group-right">
+                            <div class="slider-custom-cat">
+                                <a href="#" class="slider-custom-cate-item"
+                                    >Apple AirPods</a
+                                >
+                                <a href="#" class="slider-custom-cate-item"
+                                    >Apple AirTag</a
+                                >
+                                <a href="#" class="slider-custom-cate-item">
+                                    Magic Mouse
+                                </a>
+                                <a href="#" class="slider-custom-cate-item"
+                                    >Củ sạc Apple 20W</a
+                                >
+                                <a href="#" class="slider-custom-cate-item"
+                                    >Đế sạc MagSafe</a
+                                >
+                            </div>
+                            <div class="box-featured-products owl-carousel">
+                                <div class="box-product">
+                                    <div class="product-lable">
+                                        <span class="percent-deal"
+                                            >Giảm 18%</span
+                                        >
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img
+                                                src="./assets/images/tai-nghe-bluetooth-apple-airpods-pro-vna-didongviet_1.jpg"
+                                                alt=""
+                                                class="product-img"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div class="product-info">
+                                        <a href="#" class="product-name">
+                                            Tai nghe Bluetooth Apple AirPods Pro
+                                            Chính hãng (VN/A)
+                                        </a>
+                                        <div class="box-product-price">
+                                            <div class="product-price">
+                                                <p class="current-price">
+                                                    5.290.000 <u>đ</u>
+                                                </p>
+                                                <p class="old-price">
+                                                    6.490.000 <u>đ</u>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-product">
+                                    <div class="product-lable">
+                                        <span class="percent-deal"
+                                            >Giảm 37%</span
+                                        >
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img
+                                                src="./assets/images/_cu-sac-nhanh-apple-iphone-20w-type-c-chinh-hang-didongviet.jpg"
+                                                alt=""
+                                                class="product-img"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div class="product-info">
+                                        <a href="#" class="product-name">
+                                            Củ sạc nhanh Apple iPhone 20W Type-C
+                                            Chính hãng
+                                        </a>
+                                        <div class="box-product-price">
+                                            <div class="product-price">
+                                                <p class="current-price">
+                                                    490.000 <u>đ</u>
+                                                </p>
+                                                <p class="old-price">
+                                                    790.000 <u>đ</u>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-product">
+                                    <div class="product-lable">
+                                        <span class="percent-deal"
+                                            >Giảm 24%</span
+                                        >
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img
+                                                src="./assets/images/chuot-khong-day-apple-magic-mouse-2.jpg"
+                                                alt=""
+                                                class="product-img"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div class="product-info">
+                                        <a href="#" class="product-name">
+                                            Chuột không dây Apple Magic Mouse 2
+                                            (Full VAT)
+                                        </a>
+                                        <div class="box-product-price">
+                                            <div class="product-price">
+                                                <p class="current-price">
+                                                    1.890.000 <u>đ</u>
+                                                </p>
+                                                <p class="old-price">
+                                                    2.490.000 <u>đ</u>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-product">
+                                    <div class="product-lable"></div>
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img
+                                                src="./assets/images/apple-magic-trackpad-2-_2.jpg"
+                                                alt=""
+                                                class="product-img"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div class="product-info">
+                                        <a href="#" class="product-name">
+                                            Apple Magic Trackpad 2 Chính hãng
+                                        </a>
+                                        <div class="box-product-price">
+                                            <div class="product-price">
+                                                <p class="current-price">
+                                                    3.790.000 <u>đ</u>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-product">
+                                    <div class="product-lable"></div>
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img
+                                                src="./assets/images/ban-phim-smart-keyboard-folio-ipad-pro-11inch-didongviet_3.jpg"
+                                                alt=""
+                                                class="product-img"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div class="product-info">
+                                        <a href="#" class="product-name">
+                                            Bàn phím Apple Smart Keyboard Folio
+                                            iPad Pro 11inch chính hãng
+                                        </a>
+                                        <div class="box-product-price">
+                                            <div class="product-price">
+                                                <p class="current-price">
+                                                    4.990.000 <u>đ</u>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-custom block-slider-5 container">
+                    <div class="slider-custom-header">
+                        <h3 class="slider-custom-title">
+                            Phụ kiện xịn - Giao tận nơi
+                        </h3>
+                    </div>
+                    <div class="accessories-content">
+                        <div class="menu-cat-content">
+                            <a href="#">
+                                Phụ kiên
+                                <br />
+                                Apple
+                            </a>
+                            <a href="#">
+                                Phụ kiện
+                                <br />
+                                Samsung
+                            </a>
+                            <a href="#">
+                                Pin sạc
+                                <br />
+                                dự phòng
+                            </a>
+                            <a href="#">
+                                Dây
+                                <br />
+                                cáp sạc
+                            </a>
+                            <a href="#">
+                                Adapter
+                                <br />
+                                của sạc
+                            </a>
+                            <a href="#">
+                                Tai nghe
+                                <br />
+                                Bluetooth
+                            </a>
+                            <a href="#">
+                                Ốp lưng
+                                <br />
+                                Bao da
+                            </a>
+                            <a href="#">
+                                Kính
+                                <br />
+                                cường lực
+                            </a>
+                            <a href="#">
+                                Đồ chơi
+                                <br />
+                                Công nghệ
+                            </a>
+                            <a href="#">
+                                Thương hiệu
+                                <br />
+                                nổi bật
+                            </a>
+                        </div>
+                        <div class="accessories-wrapper">
+                            <div class="accessories-item">
+                                <div class="accessories-item-image">
+                                    <a href="#" class="accessories-item-link">
+                                        <img
+                                            src="./assets/images/tai-nghe-bluetooth-apple-airpods-pro-vna-didongviet_1.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="accessories-item-info">
+                                    <a href="#" class="accessories-item-link">
+                                        Tai nghe Apple AirPods 2 chính hãng
+                                        (VN/A) (No Wireless Charge)
+                                    </a>
+                                    <div class="accessories-item-price">
+                                        <p class="current-price">
+                                            3.390.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            4.190.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accessories-item">
+                                <div class="accessories-item-image">
+                                    <a href="#" class="accessories-item-link">
+                                        <img
+                                            src="./assets/images/pin-du-phong-energizer-10000-mah-3.7v-li-polymer-qp10000pq-didongviet.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="accessories-item-info">
+                                    <a href="#" class="accessories-item-link">
+                                        Pin dự phòng Energizer 10,000mAh /3.7V
+                                        Li-Polymer - QP10000PQ
+                                    </a>
+                                    <div class="accessories-item-price">
+                                        <p class="current-price">
+                                            790.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            1.000.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accessories-item">
+                                <div class="accessories-item-image">
+                                    <a href="#" class="accessories-item-link">
+                                        <img
+                                            src="./assets/images/tai-nghe-bluetooth-qyc-t1c-didongviet.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="accessories-item-info">
+                                    <a href="#" class="accessories-item-link">
+                                        Tai nghe Bluetooth QCY T1C
+                                    </a>
+                                    <div class="accessories-item-price">
+                                        <p class="current-price">
+                                            250.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            350.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accessories-item">
+                                <div class="accessories-item-image">
+                                    <a href="#" class="accessories-item-link">
+                                        <img
+                                            src="./assets/images/cap-mazer-duraflex-usb-c-to-lightning-mfi-1.5m-didongviet.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="accessories-item-info">
+                                    <a href="#" class="accessories-item-link">
+                                        Cáp Mazer Duraflex USB -C to lightning
+                                        MFI 1.2m
+                                    </a>
+                                    <div class="accessories-item-price">
+                                        <p class="current-price">
+                                            350.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accessories-item">
+                                <div class="accessories-item-image">
+                                    <a href="#" class="accessories-item-link">
+                                        <img
+                                            src="./assets/images/sac-du-phong-energizer-10-000mah-3-7v-li-polymer-ue10053-didongviet.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="accessories-item-info">
+                                    <a href="#" class="accessories-item-link">
+                                        Sạc dự phòng Energizer 10,000mAh /3.7V
+                                        Li-Polymer - UE10053
+                                    </a>
+                                    <div class="accessories-item-price">
+                                        <p class="current-price">
+                                            275.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            550.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accessories-item">
+                                <div class="accessories-item-image">
+                                    <a href="#" class="accessories-item-link">
+                                        <img
+                                            src="./assets/images/tai-nghe-gaming-kho_ng-da_y-havit-tw938_1_.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="accessories-item-info">
+                                    <a href="#" class="accessories-item-link">
+                                        Tai nghe Gaming không dây Havit TW938
+                                    </a>
+                                    <div class="accessories-item-price">
+                                        <p class="current-price">
+                                            590.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            690.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accessories-item">
+                                <div class="accessories-item-image">
+                                    <a href="#" class="accessories-item-link">
+                                        <img
+                                            src="./assets/images/loa-bluetooth-harman-kardon-onyx-studio-5-didongviet_3.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="accessories-item-info">
+                                    <a href="#" class="accessories-item-link">
+                                        Loa Bluetooth Harman Kardon Onyx Studio
+                                        5
+                                    </a>
+                                    <div class="accessories-item-price">
+                                        <p class="current-price">
+                                            3.600.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            3.900.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accessories-item">
+                                <div class="accessories-item-image">
+                                    <a href="#" class="accessories-item-link">
+                                        <img
+                                            src="./assets/images/_cu-sac-nhanh-apple-iphone-20w-type-c-chinh-hang-didongviet.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="accessories-item-info">
+                                    <a href="#" class="accessories-item-link">
+                                        Củ sạc nhanh Apple iPhone 20W Type-C
+                                        Chính hãng
+                                    </a>
+                                    <div class="accessories-item-price">
+                                        <p class="current-price">
+                                            490.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            790.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accessories-item">
+                                <div class="accessories-item-image">
+                                    <a href="#" class="accessories-item-link">
+                                        <img
+                                            src="./assets/images/sac-du-phong-hyperjuice-magnetic-wireless-cho-iphone-12-didongviet_2.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="accessories-item-info">
+                                    <a href="#" class="accessories-item-link">
+                                        Sạc dự phòng HyperJuice Magnetic
+                                        wireless cho iPhone 12
+                                    </a>
+                                    <div class="accessories-item-price">
+                                        <p class="current-price">
+                                            952.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            1.090.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accessories-item">
+                                <div class="accessories-item-image">
+                                    <a href="#" class="accessories-item-link">
+                                        <img
+                                            src="./assets/images/loa-bluetooth-lg-xboom-go-pn1-didongviet.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <div class="accessories-item-info">
+                                    <a href="#" class="accessories-item-link">
+                                        Loa Bluetooth LG XBOOM GO PN1
+                                    </a>
+                                    <div class="accessories-item-price">
+                                        <p class="current-price">
+                                            299.000 <u>đ</u>
+                                        </p>
+                                        <p class="old-price">
+                                            690.000 <u>đ</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accessories-read-more">
+                        <a href="#">
+                            <span>Xem thêm</span>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M9 5l7 7-7 7"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="slider-custom home-brand-slider container">
+                    <div class="home-brand-slider-item">
+                        <img src="./assets/images/24h_1.png" alt="" />
+                    </div>
+                    <div class="home-brand-slider-item">
+                        <img src="./assets/images/nghenhin_1.png" alt="" />
+                    </div>
+                    <div class="home-brand-slider-item">
+                        <img src="./assets/images/saigon_2.png" alt="" />
+                    </div>
+                    <div class="home-brand-slider-item">
+                        <img src="./assets/images/thanhnien_2.png" alt="" />
+                    </div>
+                    <div class="home-brand-slider-item">
+                        <img src="./assets/images/thegioiso_1.png" alt="" />
+                    </div>
+                    <div class="home-brand-slider-item">
+                        <img src="./assets/images/vnexpress_1.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="footer-wrapper">
+                <div class="top-footer container">
+                    <div class="store-system">
+                        <div class="slider-custom-header store-system-header">
+                            <h3 class="slider-custom-title">
+                                Hệ thống 24 cửa hàng Di Động Việt
+                            </h3>
+                        </div>
+                        <div class="store-system-content">
+                            <div class="font-caption">
+                                Nơi có tất cả các sản phẩm Di Động Việt đang
+                                kinh doanh và là nơi Trade-in Thu cũ lên đời.
+                                Đặc biệt: Máy qua sử dụng giá rẻ, Trả góp linh
+                                hoạt với nhiều phương thức
+                            </div>
+                            <ul class="list-store">
+                                <li class="store-address">
+                                    <a
+                                        >116 Thái Hà, P. Trung Liệt, Quận Đống
+                                        Đa, Hà Nội (Sắp mở bán)</a
+                                    >
+                                </li>
+                                <li class="store-address">
+                                    <a
+                                        >385 Quang Trung, P.10, Quận Gò Vấp,
+                                        TP.HCM (Sắp mở bán)</a
+                                    >
+                                </li>
+                                <li class="store-address">
+                                    <a
+                                        >300 Lê Hồng Phong, P.1, Quận 10, TP.HCM
+                                        (Sắp mở bán)</a
+                                    >
+                                </li>
+                                <li class="store-address">
+                                    <a
+                                        >79 Đồng Khởi, P. Bến Nghé, Quận 1,
+                                        TP.HCM
+                                    </a>
+                                </li>
+                                <li class="store-address">
+                                    <a
+                                        >389 Phạm Văn Thuận, P. Tam Hiệp, TP.
+                                        Biên Hòa, Đồng Nai</a
+                                    >
+                                </li>
+                            </ul>
+                            <a href="#" class="store-system-footer">
+                                Xem tất cả 23 cửa hàng Di Động Việt >
+                            </a>
+                        </div>
+                    </div>
+                    <div class="store-system">
+                        <div class="slider-custom-header store-system-header">
+                            <h3 class="slider-custom-title">
+                                Hệ thống 11 cửa hàng SiS Mobifone - Di Động Việt
+                            </h3>
+                        </div>
+                        <div class="store-system-content">
+                            <div class="font-caption">
+                                Hệ thống liên kết theo mô hình Shop in Shop
+                                (SiS) giữa Mobifone và Di Động Việt. Nơi chỉ bán
+                                điện thoại Samsung, Oppo, Vsmart, Xiaomi với giá
+                                rẻ nhất thị trường.
+                            </div>
+                            <ul class="list-store">
+                                <li class="store-address">
+                                    <a
+                                        >80 Nguyễn Du, P. Bến Nghé, Quận 1,
+                                        TP.HCM</a
+                                    >
+                                </li>
+                                <li class="store-address">
+                                    <a
+                                        >291A Tô Hiến Thành, P. 13, Quận 10,
+                                        TP.HCM</a
+                                    >
+                                </li>
+                                <li class="store-address">
+                                    <a
+                                        >665 Hậu Giang, Phường 11, Quận 6,
+                                        TP.HCM</a
+                                    >
+                                </li>
+                                <li class="store-address">
+                                    <a
+                                        >122A Phan Đăng Lưu, Phường 3, Quận Phú
+                                        Nhuận, TP.HCM</a
+                                    >
+                                </li>
+                                <li class="store-address">
+                                    <a
+                                        >254 Lê Văn Việt, P. Tăng Nhơn Phú A,
+                                        Quận 9, TP.HCM</a
+                                    >
+                                </li>
+                            </ul>
+                            <a href="#" class="store-system-footer">
+                                Xem tất cả 11 cửa hàng SiS Mobifone - Di Động
+                                Việt >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer container">
+                    <div class="footer-links">
+                        <div class="footer-links-left">
+                            <ul>
+                                <li>
+                                    <a href="#"> Mua hàng trả góp </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Chính sách bảo hành </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Chính sách đổi trả </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Chính sách bán hàng </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Chính sách bảo mật </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Chính sách sử dụng </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Hướng dẫn mua hàng từ xa </a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#"> Khuyến mãi tháng 08 </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Tin công nghệ 24h </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Trade-in thu cũ lên đời </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Tra cứu điểm thành viên </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Phụ kiện chính hãng </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Tuyển dụng mới nhất </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Trung tâm bảo hành Apple tại Việt Nam
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-links-right">
+                            <h3 class="footer-links-header">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                                    />
+                                </svg>
+                                <span>Hỗ trợ</span>
+                            </h3>
+                            <ul>
+                                <li>
+                                    <div class="connect-group">
+                                        <div class="agency">
+                                            <p>Gọi tư vấn máy - phụ kiện</p>
+                                            <span>(08:30 – 21:30)</span>
+                                        </div>
+                                        <p class="phone">1800.6018</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="connect-group">
+                                        <div class="agency">
+                                            <p>Khiếu nại - Góp ý</p>
+                                            <span>(08:30 – 21:30)</span>
+                                        </div>
+                                        <p class="phone">1800.6306</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="connect-group">
+                                        <div class="agency">
+                                            <p>Bảo hành - Hỗ trợ kỹ thuật</p>
+                                            <span>(09:00 – 21:00)</span>
+                                        </div>
+                                        <p class="phone">1900.2057</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="connect-group">
+                                        <div class="agency">
+                                            <p>Gọi mua hàng từ xa</p>
+                                            <span>(09:00 – 21:00)</span>
+                                        </div>
+                                        <p class="phone">1800.6018</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-connect-info container">
+                    <div class="connect-info-wrapper">
+                        <div class="connect-info connect-info-social">
+                            <div class="connect-info-left">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"
+                                    />
+                                </svg>
+                                <h3>Kết nối Di Động Việt</h3>
+                            </div>
+                            <div class="connect-info-right">
+                                <a href="#" class="facebook-social"
+                                    ><i class="fab fa-facebook-square"></i
+                                ></a>
+                                <a href="#" class="instagram-social"
+                                    ><i class="fab fa-instagram"></i
+                                ></a>
+                                <a href="#" class="youtube-social"
+                                    ><i class="fab fa-youtube"></i
+                                ></a>
+                            </div>
+                        </div>
+                        <div class="connect-info connect-info-payments">
+                            <div class="connect-info-left">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="{2}"
+                                        d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
+                                    />
+                                </svg>
+                                <h3>Hỗ trợ thanh toán</h3>
+                            </div>
+                            <div class="connect-info-right">
+                                <i class="fab fa-cc-visa"></i>
+                                <i class="fab fa-cc-mastercard"></i>
+                                <i class="fab fa-google"></i>
+                                <i class="fab fa-apple-pay"></i>
+                            </div>
+                        </div>
+                        <div class="cong-thuong">
+                            <a href="#"
+                                ><img
+                                    src="./assets/images/cong-thuong.png"
+                                    alt=""
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-intro container">
+                    <div class="footer-intro-wrapper">
+                        <div class="intro-content">
+                            <p>
+                                <a href="#">Điện thoại Samsung</a
+                                >&nbsp;|&nbsp;<a href="#">Điện thoại Xiaomi</a>
+                                |
+                                <a href="#">Điện thoại iPhone 13</a>
+                                |
+                                <a href="#">Điện thoại iPhone 12s</a>&nbsp;|
+                                <a href="#">Điện thoại iPhone</a>&nbsp;|
+                                <a href="#">Điện thoại iPhone 12 Pro Max</a>
+                                |
+                                <a href="#">Macbook</a>
+                                |
+                                <a href="#"
+                                    >Điện thoại Samsung Galaxy Z Fold 3 5G</a
+                                >
+                                |
+                                <a href="#"
+                                    >Điện thoại Samsung Galaxy Z Flip 3 5G</a
+                                >
+                                |
+                                <a href="#">Điện thoại OPPO</a>&nbsp;|
+                                <a href="#">Điện thoại Realme</a>&nbsp;|
+                                <a href="#">Điện thoại Xiaomi Mi 12</a>
+                                |
+                                <a href="#">Macbook Air M1</a>
+                                |
+                                <a href="#">Macbook Air 2020</a>
+                                |
+                                <a href="#"
+                                    >Điện thoại Samsung Galaxy Note 20</a
+                                >
+                                |
+                                <a href="#"
+                                    >Điện thoại Samsung Galaxy S21 Plus</a
+                                >
+                                |
+                                <a href="#">Apple Watch Series 7</a>
+                                |
+                                <a href="#">Đồng hồ Garmin</a>
+                                |
+                                <a href="#">Apple Watch Series 6</a>
+                                |
+                                <a href="#">Tai nghe Bluetooth</a>&nbsp;|
+                                <a href="#">Pin sạc dự phòng</a>&nbsp;|
+                                <a title="Loa Bluetooth" href="#"
+                                    >Loa Bluetooth</a
+                                >
+                                |
+                                <a href="#">Robot hút bụi lau nhà</a>
+                            </p>
+                        </div>
+                        <div class="intro-content">
+                            <p>
+                                Công Ty TNHH Công Nghệ và Truyền Thông VMG - 62A
+                                Trần Quang Khải, Phường Tân Định , quận 1,
+                                TPHCM. Số giấy chứng nhận đăng ký kinh doanh:
+                                0316105545, ngày cấp: 10/01/2020, nơi cấp: Sở kế
+                                hoạch và đầu tư thành phố Hồ Chí Minh
+                                MST:0316105545. Chủ sở hữu: Trần Minh Phúc -
+                                Phone: 1800.6018 - Email: lienhe@didongviet.vn -
+                                Bản quyền thuộc về Di Động Việt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="content">
+                    <p>Để lại tin nhắn hoặc gọi: 1800.6018</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="./assets/lib/jquery/jquery-3.6.0.min.js"></script>
+        <script
+            src="./assets/lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"
+            type="text/javascript"
+        ></script>
+        <script
+            src="./assets/lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"
+            type="text/javascript"
+        ></script>
+        <script src="./assets/js/slider.js" type="text/javascript"></script>
+        <script src="./assets/js/app.js" type="text/javascript"></script>
+    </body>
+</html>
