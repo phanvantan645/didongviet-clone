@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('.home-top-promotion .owl-carousel').owlCarousel({
+        lazyLoad: true,
         dotsEach: true,
         dragEndSpeed: true,
         loop: true,
@@ -20,6 +21,8 @@ $(document).ready(function () {
     });
 
     $('.influence-slider-wrapper .owl-carousel').owlCarousel({
+        lazyLoad: true,
+
         dotsEach: true,
         margin: 10,
         dragEndSpeed: true,
@@ -40,6 +43,8 @@ $(document).ready(function () {
         slideTransition: 'ease-in-out',
     });
     $('.slider-flash-sale.owl-carousel').owlCarousel({
+        lazyLoad: true,
+
         dotsEach: true,
         margin: 16,
         dragEndSpeed: true,
@@ -60,6 +65,8 @@ $(document).ready(function () {
         slideTransition: 'ease-in-out',
     });
     $('.group-slider.owl-carousel').owlCarousel({
+        lazyLoad: true,
+
         dotsEach: true,
         margin: 10,
         stagePadding: 5,
@@ -79,6 +86,8 @@ $(document).ready(function () {
         slideTransition: 'ease-in-out',
     });
     $('.box-featured-products.owl-carousel').owlCarousel({
+        lazyLoad: true,
+
         dotsEach: true,
         margin: 10,
         stagePadding: 5,
