@@ -539,7 +539,7 @@ h5 {
     flex-direction: column;
     transition: all 0.3s linear;
 }
-.home-cat-menu div a:hover img {
+.home-cat-menu div a:hover {
     opacity: 0.8;
 }
 .home-cat-menu div .img {
@@ -671,6 +671,7 @@ h5 {
     background: var(--white-color);
     border-radius: 10px;
     padding: 12px;
+    transition: all 0.2s linear;
 }
 
 .box-product .product-lable {
@@ -696,7 +697,6 @@ h5 {
     margin-bottom: 10px;
 }
 .box-product .product-image img {
-    transition: transform 0.2s linear;
 }
 .box-product:hover .product-image img {
     transform: translateY(-10px);
