@@ -339,6 +339,7 @@ h5 {
     padding: 8px 12px;
     border: 1px solid var(--gray-color);
     border-radius: 5px;
+    transition: all 0.3s linear;
 }
 .menu-funtion:hover {
     background: var(--primary-color);
@@ -536,6 +537,10 @@ h5 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    transition: all 0.3s linear;
+}
+.home-cat-menu div a:hover img {
+    opacity: 0.8;
 }
 .home-cat-menu div .img {
     width: 50px;
@@ -691,7 +696,7 @@ h5 {
     margin-bottom: 10px;
 }
 .box-product .product-image img {
-    transition: transform 0.1s linear;
+    transition: transform 0.2s linear;
 }
 .box-product:hover .product-image img {
     transform: translateY(-10px);
